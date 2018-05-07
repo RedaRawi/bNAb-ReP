@@ -16,7 +16,7 @@ Apply bNAb-ReP to predict neutralization susceptibility of HIV-1 Env sequences
 ## Run 
 bNAb-ReP can be run in the command line
 
-4 input arguments are necessary to run the CRISPro.
+### 4 input arguments are necessary to run the CRISPro.
   1.  bNAb, choose one of 33 bNAbs (10-1074, 2F5, 2G12, 35O22, 3BNC117, 4E10, 8ANC195, CH01, DH270.1, DH270.5, DH270.6, HJ16, NIH45-46, PG16, PG9, PGDM1400, PGT121, PGT128, PGT135, PGT145, PGT151, VRC-CH31, VRC-PG04, VRC01, VRC03, VRC07, VRC13, VRC26.08, VRC26.25, VRC29.03, VRC34.01, VRC38.01, b12)
   2.  HIV-1 Env sequence(s) in FASTA format (https://en.wikipedia.org/wiki/FASTA_format).
       Please use ".fasta" for file name extension 
