@@ -11,7 +11,7 @@ Apply bNAb-ReP to predict neutralization susceptibility of HIV-1 Env sequences
   - R libraries
     - bio3d
     - h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources")
-- MAFFT (version 7) (https://mafft.cbrc.jp/alignment/software/)
+- MAFFT (latest version 7.397) (https://mafft.cbrc.jp/alignment/software/)
 
 ## Run 
 bNAb-ReP can be run in the command line
