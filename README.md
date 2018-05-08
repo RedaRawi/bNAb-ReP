@@ -38,7 +38,7 @@ Results will be saved in OUTPUT_probabilities.txt. For each sequence in the inpu
 ### Example/Test
 
 #### HXB2 and BG505 testing sequences
-R --vanilla < run_bNAb-ReP_v1.1.R VRC01 testing.fasta /usr/local/bin/mafft OUTPUT
+R --vanilla < run_bNAb-ReP_v1.1.R VRC01 testing.fasta /usr/bin/mafft OUTPUT
 
 # Contact
 Reda Rawi: reda.rawi@nih.gov
