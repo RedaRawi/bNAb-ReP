@@ -1,5 +1,5 @@
 # bNAb-ReP
-An Automated Pipeline for HIV-1 Env Resistance Prediction to 33 Neutralizing Antibodies
+An Automated Pipeline for HIV-1 Resistance Prediction to 33 Neutralizing Antibodies
 
 ## Installation
 
