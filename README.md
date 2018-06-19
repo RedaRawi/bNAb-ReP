@@ -20,6 +20,7 @@ An Automated Pipeline for HIV-1 Resistance Prediction to 33 Neutralizing Antibod
       - Open R in command line by typing: R
       - Run the following command in R with the path to the downloaded directory in the first argument: install.packages( "path.to.downloaded.directory", type = "source", repos = NULL )
 - MAFFT (latest version 7.397) (https://mafft.cbrc.jp/alignment/software/)
+- JAVA SE Development Kit 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ## Run 
 bNAb-ReP can be run in the command line
