@@ -5,9 +5,14 @@ An Automated Pipeline for HIV-1 Resistance Prediction to 33 Neutralizing Antibod
 
 ### Requirements
 - R (https://www.r-project.org)
-  - R libraries
+  - Install R libraries
     - bio3d
+      - Open R in command line by typing: R
+      - Run the following command in R: install.packages( "bio3d" )
     - h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources")
+      - Download h2o package (sepecific version)
+      - Open R in command line by typing: R
+      - Run the following command in R with the path to the downloaded directory in the first argument: install.packages( path.to.downloaded.directory, type = "source", repos = NULL )
 - MAFFT (latest version 7.397) (https://mafft.cbrc.jp/alignment/software/)
 
 ## Run 
