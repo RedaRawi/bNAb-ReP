@@ -9,6 +9,12 @@ An Automated Pipeline for HIV-1 Resistance Prediction to 33 Neutralizing Antibod
     - bio3d
       - Open R in command line by typing: R
       - Run the following command in R: install.packages( "bio3d" )
+    - RCurl
+      - Open R in command line by typing: R
+      - Run the following command in R: install.packages( "RCurl" )
+    - jsonlite
+      - Open R in command line by typing: R
+      - Run the following command in R: install.packages( "jsonlite" )
     - h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources")
       - Download h2o package (sepecific version)
       - Open R in command line by typing: R
