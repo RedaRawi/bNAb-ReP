@@ -40,7 +40,7 @@ bNAb-ReP can be run in the command line
   2. Copy directories alignments and models in the current path, where you are intending to execute the script
 
 ### Execute in the command line
-R --vanilla < run_bNAb-ReP_v1.1-3.R VRC01 testing.fasta /usr/local/bin/mafft OUTPUT
+R --vanilla < run_bNAb-ReP_v1.1-3.R VRC01 testing.fasta mafft OUTPUT
 
 ### Result
 Results will be saved in OUTPUT_probabilities.txt. For each sequence in the input alignment file a probability value between 0-1 is calculated, with higher values corresponding to neutralization sensitivity.
