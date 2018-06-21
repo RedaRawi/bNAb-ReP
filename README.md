@@ -24,25 +24,6 @@ bNAb-ReP was tested on Linux and Mac
   - Run the following command in R with the path to the downloaded directory in the first argument: install.packages( "path/h2o_3.16.0.2.tar.gz", type = "source", repos = NULL )
   
 
-### Environment
-- R (https://www.r-project.org)
-  - Install R libraries
-    - bio3d
-      - Open R in command line by typing: R
-      - Run the following command in R: install.packages( "bio3d" )
-    - RCurl
-      - Open R in command line by typing: R
-      - Run the following command in R: install.packages( "RCurl" )
-    - jsonlite
-      - Open R in command line by typing: R
-      - Run the following command in R: install.packages( "jsonlite" )
-    - h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources")
-      - Download h2o package (sepecific version)
-      - Open R in command line by typing: R
-      - Run the following command in R with the path to the downloaded directory in the first argument: install.packages( "path/h2o_3.16.0.2.tar.gz", type = "source", repos = NULL )
-- MAFFT (latest version 7.402) (https://mafft.cbrc.jp/alignment/software/)
-- JAVA SE Development Kit 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
 ## Run 
 bNAb-ReP can be run in the command line
 
