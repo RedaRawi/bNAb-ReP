@@ -19,7 +19,7 @@ bNAb-ReP was tested on Linux and Mac
   - conda install -c cidermole jdk8
   - conda install -c bioconda mafft
 - Install R library h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources") manually by:
-  - Download h2o package (sepecific version)
+  - Download h2o package (sepecific version) in command line: wget https://cran.r-project.org/src/contrib/Archive/h2o/h2o_3.16.0.2.tar.gz
   - Open R in command line by typing: R
   - Run the following command in R with the path to the downloaded directory in the first argument: install.packages( "path/h2o_3.16.0.2.tar.gz", type = "source", repos = NULL )
   
