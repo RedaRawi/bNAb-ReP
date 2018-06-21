@@ -3,7 +3,28 @@ An Automated Pipeline for HIV-1 Resistance Prediction to 33 Neutralizing Antibod
 
 ## Installation
 
-### Requirements
+bNAb-ReP was tested on Linux and Mac
+
+### Environment
+- Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html) using Python 3.6
+  - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh (Linux) or Miniconda3-latest-MacOSX-x86_64 (Mac)
+- Create bNAb-ReP environment in command line: conda create --name bNAb-ReP
+- Activate bNAb-ReP environment in command line: source activate bNAb-ReP
+- Install require packages by running the following in command line:
+  - conda install -c conda-forge readline
+  - conda install -c r r
+  - conda install -c bioconda r-bio3d
+  - conda install -c r r-rcurl
+  - conda install -c r r-jsonlite
+  - conda install -c cidermole jdk8
+  - conda install -c bioconda mafft
+- Install R library h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources") manually by:
+  - Download h2o package (sepecific version)
+  - Open R in command line by typing: R
+  - Run the following command in R with the path to the downloaded directory in the first argument: install.packages( "path/h2o_3.16.0.2.tar.gz", type = "source", repos = NULL )
+  
+
+### Environment
 - R (https://www.r-project.org)
   - Install R libraries
     - bio3d
