@@ -8,6 +8,7 @@ bNAb-ReP was tested on Linux and Mac
 ### Environment
 - Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html) using Python 3.6
   - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh (Linux) or Miniconda3-latest-MacOSX-x86_64 (Mac)
+  - Open a new terminal or source bashrc with in command line: source ~/.bashrc
 - Create bNAb-ReP environment in command line: conda create --name bNAb-ReP
 - Activate bNAb-ReP environment in command line: source activate bNAb-ReP
 - Install require packages by running the following in command line:
