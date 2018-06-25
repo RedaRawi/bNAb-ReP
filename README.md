@@ -3,12 +3,13 @@ An Automated Pipeline for HIV-1 Resistance Prediction to 33 Neutralizing Antibod
 
 ## Installation
 
-bNAb-ReP was tested on Linux and Mac
+bNAb-ReP has been successfully tested on Linux systems
+
 
 ### Environment
 - Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html) using Python 3.6
-  - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh (Linux) or Miniconda3-latest-MacOSX-x86_64 (Mac)
-  - Open a new terminal
+  - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh (Linux)
+  - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create bNAb-ReP environment in command line: conda create --name bNAb-ReP
 - Activate bNAb-ReP environment in command line: source activate bNAb-ReP
 - Install require packages by running the following in command line:
