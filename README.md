@@ -7,19 +7,19 @@ bNAb-ReP has been successfully tested on Linux systems
 
 
 ### Environment
-- Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html) using Python 3.6
+- Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html) using Python 3.7
   - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh (Linux)
   - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create bNAb-ReP environment in command line: conda create --name bNAb-ReP
 - Activate bNAb-ReP environment in command line: source activate bNAb-ReP
 - Install require packages by running the following in command line:
   - conda install -c r r r=3.4.1
-  - conda install -c conda-forge readline
   - conda install -c bioconda r-bio3d
   - conda install -c r r-rcurl
   - conda install -c r r-jsonlite
   - conda install -c cidermole jdk8 (Linux) or conda install -c cyclus java-jdk (Mac)
   - conda install -c bioconda mafft
+  - conda install -c conda-forge readline
 - Install R library h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources") manually by:
   - Download h2o package (sepecific version) in command line: wget https://cran.r-project.org/src/contrib/Archive/h2o/h2o_3.16.0.2.tar.gz
   - Open R in command line by typing: R
