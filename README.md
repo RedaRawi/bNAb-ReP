@@ -19,6 +19,9 @@ bNAb-ReP has been successfully tested on Linux systems
   - conda install -c r r-jsonlite
   - conda install -c cidermole jdk8 (Linux) or conda install -c cyclus java-jdk (Mac)
   - conda install -c bioconda mafft
+  - conda install -c r r-data.table
+  - conda install -c r r-rocr
+  - conda install -c conda-forge r-geosphere
   - conda install -c conda-forge readline
 - Install R library h2o (version 3.16.0.2) (https://cran.r-project.org/web/packages/h2o/index.html) (see "Old sources") manually by:
   - Download h2o package (sepecific version) in command line: wget https://cran.r-project.org/src/contrib/Archive/h2o/h2o_3.16.0.2.tar.gz
