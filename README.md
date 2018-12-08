@@ -20,6 +20,8 @@ bNAb-ReP has been successfully tested on Linux systems
   - conda install -c cidermole jdk8 (Linux) or conda install -c cyclus java-jdk (Mac)
   - conda install -c bioconda mafft
   - conda install -c r r-data.table
+  - conda install -c r r-foreach
+  - conda install -c r r-doparallel 
   - conda install -c r r-rocr
   - conda install -c conda-forge r-geosphere
   - conda install -c conda-forge readline
