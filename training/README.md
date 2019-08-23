@@ -21,4 +21,4 @@ R --vanilla < bNAb-ReP_preprocess_v.1.1-0.R VRC34.01_IC50_50_alignment.fasta VRC
 4. (Full) Path to the training data, which was preprocessed in the previous step (e.g. "/home/rawir/bNAb-ReP/Training.txt")
 
 ### Execute GBM model training script in the command line
-R --vanilla < bNAb-ReP_GBM_training.R VRC34.01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /home/rawir/bNAb-ReP /home/rawir/bNAb-ReP/Training_VRC34.01_IC50_50.txt
+R --vanilla < bNAb-ReP_GBM_training.R 8 32 /home/rawir/bNAb-ReP /home/rawir/bNAb-ReP/Training_VRC34.01_IC50_50.txt
