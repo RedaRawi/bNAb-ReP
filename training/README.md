@@ -1,4 +1,5 @@
 ## Generate Training data
+See example files for VRC01 and VRC34.01 bNAb in example directory
 
 ### Please install all dependencies (see main GitHub page)
 
@@ -6,6 +7,11 @@
 1. Training sequences in FASTA alignment file format.
 2. Neutralization file: Each line contains either a 0 (resistant) or 1 (sensitive) for the corresponding sequences in the input sequences. 
 3. Path to installed MAFFT software (e.g. "/usr/local/bin/mafft")
+
+### Execute Preprocessing script in the command line
+For instance:
+R --vanilla < bNAb-ReP_preprocess_v.1.1-0.R VRC01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /usr/local/bin/mafft
+
 
 ## Perform GBM model training
 1. Number of cores (CPUs); Required for multiprocessing
