@@ -9,12 +9,16 @@ See example files for VRC01 and VRC34.01 bNAb in example directory
 3. Path to installed MAFFT software (e.g. "/usr/local/bin/mafft")
 
 ### Execute Preprocessing script in the command line
-For instance:
-R --vanilla < bNAb-ReP_preprocess_v.1.1-0.R VRC01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /usr/local/bin/mafft
+R --vanilla < bNAb-ReP_preprocess_v.1.1-0.R VRC34.01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /usr/local/bin/mafft
 
 
 ## Perform GBM model training
+
+### 4 Input arguments required
 1. Number of cores (CPUs); Required for multiprocessing
 2. Memory (in GB); Please provide number of GB in memory you want the training to allocate/use
 3. (Full) Path to the current directory where the scripts are executed (output will be saved there) (e.g. "/home/rawir/bNAb-ReP")
 4. (Full) Path to the training data, which was preprocessed in the previous step (e.g. "/home/rawir/bNAb-ReP/Training.txt")
+
+### Execute GBM model training script in the command line
+R --vanilla < bNAb-ReP_GBM_training.R VRC34.01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /home/rawir/bNAb-ReP /home/rawir/bNAb-ReP/Training_VRC34.01_IC50_50.txt
