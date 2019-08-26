@@ -9,7 +9,7 @@ See example files for VRC01 and VRC34.01 bNAb in example directory
 3. Path to installed MAFFT software (e.g. "/usr/local/bin/mafft")
 
 ### Execute Preprocessing script in the command line
-R --vanilla < bNAb-ReP_preprocess_v.1.1-0.R VRC34.01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /usr/local/bin/mafft
+R --vanilla < bNAb-ReP_preprocess_v.1.1-1.R VRC34.01_IC50_50_alignment.fasta VRC34.01_IC50_50_neutralization.txt /usr/local/bin/mafft
 
 
 ## Perform GBM model training
