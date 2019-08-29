@@ -35,4 +35,4 @@ R --vanilla < bNAb-ReP_GBM_training.R 8 32 /home/rawir/bNAb-ReP /home/rawir/bNAb
 6. Output prefix
 
 ### Execute GBM model testing script in the command line
-R --vanilla < bNAb-ReP_GBM_training.R VRC34.01_IC50_50_alignment.fasta /home/rawir/bNAb-ReP/full final_cutoff_cutoff_balanced.txt NewTestSequences.fasta /usr/local/bin/mafft Output
+R --vanilla < bNAb-ReP_GBM_training.R VRC34.01_IC50_50_alignment.fasta /home/rawir/bNAb-ReP/final final_cutoff_cutoff_balanced.txt NewTestSequences.fasta /usr/local/bin/mafft Output
