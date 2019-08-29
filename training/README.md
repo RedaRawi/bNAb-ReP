@@ -34,5 +34,5 @@ R --vanilla < bNAb-ReP_GBM_training.R 8 32 /home/rawir/bNAb-ReP /home/rawir/bNAb
 5. Path to installed MAFFT software (e.g. "/usr/local/bin/mafft")
 6. Output prefix
 
-### Execute GBM model training script in the command line
+### Execute GBM model testing script in the command line
 R --vanilla < bNAb-ReP_GBM_training.R VRC34.01_IC50_50_alignment.fasta /home/rawir/bNAb-ReP/full final_cutoff_cutoff_balanced.txt NewTestSequences.fasta /usr/local/bin/mafft Output
