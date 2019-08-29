@@ -22,3 +22,17 @@ R --vanilla < bNAb-ReP_preprocess_v.1.1-1.R VRC34.01_IC50_50_alignment.fasta VRC
 
 ### Execute GBM model training script in the command line
 R --vanilla < bNAb-ReP_GBM_training.R 8 32 /home/rawir/bNAb-ReP /home/rawir/bNAb-ReP/Training_VRC34.01_IC50_50.txt
+
+
+## Perform GBM model testing
+
+### 6 Input arguments required
+1. Reference alignment (used in training)
+2. Path to full model trained (file name should be: "full")
+3. File with adjusted cutoff
+4. New test alignment
+5. Path to installed MAFFT software (e.g. "/usr/local/bin/mafft")
+6. Output prefix
+
+### Execute GBM model training script in the command line
+R --vanilla < bNAb-ReP_GBM_training.R VRC34.01_IC50_50_alignment.fasta /home/rawir/bNAb-ReP/full final_cutoff_cutoff_balanced.txt NewTestSequences.fasta /usr/local/bin/mafft Output
