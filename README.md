@@ -13,7 +13,6 @@ bNAb-ReP has been successfully tested on Linux systems
 - Create bNAb-ReP environment in command line: conda create --name bNAb-ReP
 - Activate bNAb-ReP environment in command line: source activate bNAb-ReP
 - Install require packages by running the following in command line:
-  - conda install -c r r r=3.4.1
   - conda install -c r r
   - conda install -c bioconda r-bio3d
   - conda install -c r r-rcurl
